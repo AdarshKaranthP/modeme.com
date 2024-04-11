@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+  <link rel="shortcut icon" href="download.png" type="image/x-icon" href="download.png">
+  <title>Picture I created</title>
+    <link rel="stylesheet" href="style2.css"> 
+  </head>
+  <body>
+    <button class="go-top-btn">
+      <img src="arrow-up.png" alt="arrow up">
+    </button>
+      <button class="go-top-btn">
+          <img src="arrow up.png " alt="arrow up">
+      </button>
+      
+      <div class="banner">
+      <div class="navbar">
+        <img src="download.png" class="logo">
+       <ul>
+           <li><a href="index.html">home</a></li>
+           <li><a href="https://www.instagram.com/a_darxh_08/">instagram</a></li>
+           <li><a href="https://www.youtube.com/channel/UCswH1PWWq41ECbOt7GqKE_g">go back</a></li>
+
+        </ul>
+      </div>  
+      <div class="content">
+        <h1>Want to see my prographys </h1>
+             <P>SCROLL DOWN</P>
+    </div>
+   
+      </div>
+      <img  class="img-1" src="jpg (1).jpg">
+      <img  class="img-1" src="jpg (2).jpg"> 
+      <img  class="img-1" src="jpg (3).jpg" alt="first one">
+      <img  class="img-1" src="jpg (4).jpg" alt="first one">
+      <img  class="img-1" src="jpg (5).jpg" alt="first one">
+      <img  class="img-1" src="jpg (6).jpg" alt="first one">
+      <img  class="img-1" src="jpg (7).jpg" alt="first one">
+      <img  class="img-1" src="jpg (8).jpg" alt="first one">
+      <img  class="img-1" src="jpg (9).jpg" alt="first one">
+      <img  class="img-1" src="jpg (10).jpg" alt="first one">
+      <img  class="img-1" src="jpg (11).jpg" alt="first one">
+      <img  class="img-1" src="jpg (12).jpg" alt="first one">
+      <img  class="img-1" src="jpg (13).jpg" alt="first one">
+      <img  class="img-1" src="jpg (14).jpg" alt="first one">
+      <img  class="img-1" src="jpg (15).jpg" alt="first one">
+      <img  class="img-1" src="jpg (16).jpg" alt="first one">
+      <img  class="img-1" src="jpg (17).jpg" alt="first one">
+      <img  class="img-1" src="jpg (18).jpg" alt="first one">
+      <img  class="img-1" src="jpg (19).jpg" alt="first one">
+      <img  class="img-1" src="jpg (20).jpg" alt="first one">
+      <img  class="img-1" src="jpg (21).jpg" alt="first one">
+      <img  class="img-1" src="jpg (22).jpg" alt="first one">
+      <img  class="img-1" src="jpg (23).jpg" alt="first one">
+      <img  class="img-1" src="jpg (24).jpg" alt="first one">
+      <img  class="img-1" src="jpg (25).jpg" alt="first one">
+      <img  class="img-1" src="jpg (26).jpg" alt="first one">
+      <img  class="img-1" src="jpg (27).jpg" alt="first one">
+      <img  class="img-1" src="jpg (28).jpg" alt="first one">
+      <img  class="img-1" src="1 (3).jpg" alt="first one">
+      <img  class="img-1" src="1 (2).jpg" alt="first one">
+      <img  class="img-1" src="1 (1).jpg" alt="first one">
+      <img  class="img-1" src="1 (4).jpg" alt="first one">
+      <img  class="img-1" src="1 (5).jpg" alt="first one">
+      <img  class="img-1" src="1 (6).jpg" alt="first one">
+      <img  class="img-1" src="1 (7).jpg" alt="first one">
+      <img  class="img-1" src="1 (8).jpg" alt="first one">
+      <img  class="img-1" src="1 (9).jpg" alt="first one">
+      <img  class="img-1" src="1 (10).jpg" alt="first one">
+      <img  class="img-1" src="1 (11).jpg" alt="first one">
+      <IMG  CLASS="img-1" SRC="Photo by 💙_आघू_ on May 17, 2023..jpg" alt="FIRST ONE"
+      <script src="script.js"></script>
+      <div class="loader"></div>
+      <x-star-rating>
+        <div class="star full"></div>
+        <div class="star full"></div>
+        <div class="star full"></div>
+        <div class="star"></div>
+        <div class="star "></div>
+      </x-star-rating>
+      </body>
+      <script>
+          const goTopBtn = document.querySelector('.go-top-btn');
+
+window.addEventListener('scroll', checkHeight)
+
+function checkHeight(){
+  if(window.scrollY > 200) {
+    goTopBtn.style.display = "flex"
+  } else {
+    goTopBtn.style.display = "none"
+  }
+}
+window.addEventListener("load", () => {
+      const loader = document.querySelector(".loader");
+      
+      loader.classList.add("loader--hidden");
+      
+      loader.addEventListener("transitionend", () => {
+        document.body.removeChild(loader);
+      });
+      });
+
+goTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+})
+      </script>
+      </html>
